@@ -1,0 +1,22 @@
+{
+    "type": "image",
+    "id": "_newBadgeElement",
+    "parameters": {
+        "imageName": "new_badge",
+        "folderName": "PKD_SimpleAchievements",
+        "keepAspect": true,
+        "useAspectSize": false
+    },
+    "bindings": {
+        "size": {
+            "width": "84hdp",
+            "height": "auto"
+        },
+        "position": {
+            "x": "2hdp",
+            "y": "8hdp"
+        },
+        "visible": "$isAchievementNew"
+    },
+    "childrens": []
+}

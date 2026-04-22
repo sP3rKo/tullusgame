@@ -1,0 +1,13 @@
+[
+null,
+{"id":1,"battlerName":"Actor1_3","characterIndex":2,"characterName":"Actor1","classId":5,"equips":[31,0,52,4,0],"faceIndex":2,"faceName":"Actor1","traits":[],"initialLevel":7,"maxLevel":20,"name":"Mo","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"Actor1_6","characterIndex":5,"characterName":"Actor1","classId":3,"equips":[7,0,49,20,0],"faceIndex":5,"faceName":"Actor1","traits":[],"initialLevel":7,"maxLevel":20,"name":"Evie","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"Actor1_7","characterIndex":6,"characterName":"Actor1","classId":4,"equips":[25,27,46,9,0],"faceIndex":6,"faceName":"Actor1","traits":[],"initialLevel":7,"maxLevel":20,"name":"Lance","nickname":"Expo","note":"","profile":""},
+{"id":4,"battlerName":"SF_Actor3_6","characterIndex":5,"characterName":"SF_Actor3","classId":2,"equips":[7,0,50,2,0],"faceIndex":5,"faceName":"SF_Actor3","traits":[],"initialLevel":7,"maxLevel":20,"name":"Tav","nickname":"","note":"","profile":""},
+{"id":5,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":6,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":7,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":8,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":9,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":10,"battlerName":"Actor1_3","characterIndex":2,"characterName":"Actor1","classId":5,"equips":[0,0,0,0,0],"faceIndex":2,"faceName":"Actor1","traits":[],"initialLevel":1,"maxLevel":99,"name":"s3doon","nickname":"","note":"","profile":""}
+]

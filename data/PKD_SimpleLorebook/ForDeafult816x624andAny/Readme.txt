@@ -1,0 +1,1 @@
+If your game using any resolution except 1280x720, copy this file to data/PKD_SimpleLorebook/ with replace

@@ -1,0 +1,112 @@
+{
+    "type": "screen",
+    "childrens": [
+        {
+            "type": "list",
+            "id": "_materialsList",
+            "parameters": {
+                "maxCols": 1,
+                "isHaveSelectionEffect": false,
+                "selectionEffects": ["glow;distance:12;outerStrength:3"],
+                "scaleItemsWidth": false,
+                "scaleItemsHeight": false,
+                "isDrawDefaultItemBack": false,
+                "defaultItemHeight": 0,
+                "backgroundType": 2,
+                "itemsPadding": 12,
+                "isHaveInOutAnimation": false,
+                "isHorizontal": false,
+                "inAnimation": "field:x;duration:0.15;keyframes:0=0,100=4",
+                "outAnimation": "field:x;duration:0.15;keyframes:0=4,100=0",
+                "isPlayOkSound": true,
+                "isPlayCursorSound": true
+            },
+            "bindings": {
+                "width": "290hdp",
+                "height": "$allItemsHeight",
+                "position": {
+                    "x": "center",
+                    "y": "center - 45hdp"
+                }
+            }
+        },
+        {
+            "type": "rect",
+            "id": "_slotItemDescriptionBack",
+            "parameters": {
+                "corners": 12,
+                "fillGradient": null,
+                "gradientStart": { "x": 0, "y": 0 },
+                "gradientEnd": { "x": 0, "y": 100 },
+                "fillColor": "#1a1102",
+                "fillAlpha": 1,
+                "strokeWidth": 2,
+                "strokeColor": "#8d8175",
+                "strokeAlpha": 1
+            },
+            "bindings": {
+                "size": {
+                    "width": "400hdp",
+                    "height": "90hdp"
+                },
+                "position": {
+                    "x": "center",
+                    "y": "prevEndY + 10hdp"
+                }
+            },
+            "childrens": [
+                {
+                    "type": "text",
+                    "id": "_slotItemDescriptionText",
+                    "parameters": {
+                        "alignment": "center",
+                        "font": {
+                            "face": null,
+                            "size": 18,
+                            "italic": false,
+                            "bold": false,
+                            "weight": 0
+                        },
+                        "margins": { "x": 0, "y": 0 },
+                        "outline": { "color": null, "width": 2 },
+                        "textColor": "#FFFFFF",
+                        "shadow": {
+                            "color": "#000",
+                            "opacity": 0,
+                            "margins": { "x": 1, "y": 1 }
+                        },
+                        "text": "",
+                        "multiline": false,
+                        "verticalCentered": true,
+                        "verticalAlignment": "top",
+                        "verticalSpacing": 4,
+                        "actualWidth": false,
+                        "actualHeight": false,
+                        "trimWidth": false,
+                        "trimHeight": false,
+                        "iconPadding": {
+                            "left": 2,
+                            "right": 2,
+                            "top": 0,
+                            "bottom": 0
+                        },
+                        "iconSize": 1,
+                        "isStaticIconSize": false,
+                        "isLoadFontFromFile": false
+                    },
+                    "bindings": {
+                        "size": {
+                            "width": "96%",
+                            "height": "80%"
+                        },
+                        "position": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "text": "$descriptionText"
+                    }
+                }
+            ]
+        }
+    ]
+}

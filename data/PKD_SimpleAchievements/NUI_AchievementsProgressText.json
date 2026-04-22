@@ -1,0 +1,56 @@
+{
+    "type": "screen",
+    "childrens": [{
+        "type": "text",
+        "id": "_progressTextElement",
+        "constants": {
+            "defaultTextColor": "#ffffff",
+            "completedTextColor": "#f7e300"
+        },
+        "parameters": {
+            "alignment": "center",
+            "font": {
+                "face": null,
+                "size": 18,
+                "italic": false,
+                "bold": true,
+                "weight": 0
+            },
+            "margins": {
+                "x": 0,
+                "y": 0
+            },
+            "outline": {
+                "color": null,
+                "width": 2
+            },
+            "shadow": {
+                "color": "#000",
+                "opacity": 220,
+                "margins": {
+                    "x": 1,
+                    "y": 1
+                }
+            },
+            "multiline": false,
+            "verticalCentered": true,
+            "actualWidth": false,
+            "actualHeight": false,
+            "isLoadFontFromFile": false
+        },
+        "bindings": {
+            "size": {
+                "width": "100%",
+                "height": "24hdp"
+            },
+            "position": {
+                "x": "center",
+                "y": "bottom - 36hdp"
+            },
+            "fontSize": "20hdp",
+            "textColor": "$progressTextColor",
+            "text": ["Completed: %1 / %2", "$unlockedAmount", "$achievementsAmount"]
+        },
+        "childrens": []
+    }]
+}

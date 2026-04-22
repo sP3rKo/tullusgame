@@ -1,0 +1,116 @@
+{
+    "type": "group",
+    "constants": {},
+    "bindings": {
+        "size": {
+            "width": "68hdp",
+            "height": "68hdp"
+        }
+    },
+    "childrens": [{
+            "type": "image",
+            "id": "_gridItem",
+            "parameters": {
+                "imageName": "grid_item_0",
+                "folderName": "PKD_SimpleLorebook",
+                "keepAspect": false,
+                "useAspectSize": false
+            },
+            "bindings": {
+                "size": {
+                    "width": "100%",
+                    "height": "100%"
+                },
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        {
+            "type": "image",
+            "id": "_selectedFrame",
+            "parameters": {
+                "imageName": "grid_item_1",
+                "folderName": "PKD_SimpleLorebook",
+                "keepAspect": false,
+                "useAspectSize": false
+            },
+            "bindings": {
+                "size": {
+                    "width": "100%",
+                    "height": "100%"
+                },
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "visible": "$isSelected"
+            }
+        },
+        {
+            "type": "image",
+            "id": "_loreEntryIconImage",
+            "effects": ["shadow"],
+            "parameters": {
+                "imageName": "",
+                "folderName": "pictures",
+                "keepAspect": true,
+                "useAspectSize": true
+            },
+            "bindings": {
+                "size": {
+                    "width": "90%",
+                    "height": "90%"
+                },
+                "position": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "image": "$loreEntryIconImage"
+            }
+        },
+        {
+            "type": "image",
+            "id": "_loreEntryNewMarkerImage",
+            "parameters": {
+                "imageName": "new_mark",
+                "folderName": "PKD_SimpleLorebook",
+                "keepAspect": false,
+                "useAspectSize": false
+            },
+            "bindings": {
+                "size": {
+                    "width": "100%",
+                    "height": "100%"
+                },
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "visible": "$isloreEntryNew"
+            }
+        },
+        {
+            "type": "image",
+            "id": "_loreEntryLockedImage",
+            "parameters": {
+                "imageName": "question_mark",
+                "folderName": "PKD_SimpleLorebook",
+                "keepAspect": true,
+                "useAspectSize": true
+            },
+            "bindings": {
+                "size": {
+                    "width": "70%",
+                    "height": "70%"
+                },
+                "position": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "visible": "$isloreEntryLocked"
+            }
+        }
+    ]
+}

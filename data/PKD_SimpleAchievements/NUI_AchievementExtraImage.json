@@ -1,0 +1,24 @@
+{
+    "type": "image",
+    "id": "_extraImageElement",
+    "constants": {
+        "childOf": ""
+    },
+    "parameters": {
+        "folderName": "PKD_SimpleAchievements",
+        "keepAspect": false,
+        "useAspectSize": false
+    },
+    "bindings": {
+        "size": {
+            "width": "20hdp",
+            "height": "20hdp"
+        },
+        "position": {
+            "x": "right - width / 2",
+            "y": "12hdp"
+        },
+        "image": "$extraImageName"
+    },
+    "childrens": []
+}

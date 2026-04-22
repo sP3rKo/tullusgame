@@ -1,0 +1,19 @@
+{
+    "type": "image",
+    "parameters": {
+        "folderName": "pictures",
+        "keepAspect": true,
+        "useAspectSize": true
+    },
+    "bindings": {
+        "size": {
+            "width": "48hdp",
+            "height": "48hdp"
+        },
+        "position": {
+            "x": "prevEndX + 8hdp",
+            "y": "center"
+        },
+        "image": "%arg%"
+    }
+}
